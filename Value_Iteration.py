@@ -86,7 +86,7 @@ def value_iteration(env, max_iter=10000, gamma=0.9):
                 for k in range(len(env.P[i][j])):
                     prob, next_state, reward, done = env.P[i][j][k]
                     val += prob * (reward + gamma * state_values_[next_state])
-                if val >= state_values[i]:
+                if val > state_values[i]:
                     state_values[i] = val
                     opt_policy[i] = j
 
