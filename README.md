@@ -9,8 +9,8 @@ Value iteration solved MDP at 75 iterations.
 Q-value iteration solved MDP at 58 iterations.  
 Both methods found slightly different optimal policies,  
 because there were multiple optimal actions in some states.  
-It tooks approximately 73 steps to reach a frisbee (when not falling into a hole), and  
-chance to fall into a hole is approx. 25%.  
+It tooks approximately 73 steps to reach a frisbee (when not falling into a hole),    
+and chance to fall into a hole is approx. 25% versus total trials.  
 
 ![val_result](/val_result.png)
 ![q_val_result](/q_val_result.png)
